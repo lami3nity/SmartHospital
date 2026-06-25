@@ -5,7 +5,7 @@ import pickle
 import os
 
 st.set_page_config(
-    page_title="Smart Hospital Patient Navigator git statusby Lakshmi", page_icon="🏥", layout="wide"
+    page_title="Smart Hospital Patient Navigator (Project by Lakshmi)", page_icon="🏥", layout="wide"
 )
 
 # CSS design style
@@ -142,11 +142,11 @@ st.markdown(
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
-        🏥 Future Classroom · Machine Learning
+        🏥 Future Classroom · Machine Learning · Project by Lakshmi
     </div>
     <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
                 letter-spacing:-0.02em;">
-        Smart Hospital Patient Navigator by Lakshmi
+        Smart Hospital Patient Navigator
     </div>
     <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
         Find the Right Department for Your Symptoms
