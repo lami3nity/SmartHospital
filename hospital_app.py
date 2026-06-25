@@ -5,7 +5,7 @@ import pickle
 import os
 
 st.set_page_config(
-    page_title="Smart Hospital Patient Navigator by Lakshmi", page_icon="🏥", layout="wide"
+    page_title="Smart Hospital Patient Navigator git statusby Lakshmi", page_icon="🏥", layout="wide"
 )
 
 # CSS design style
@@ -253,7 +253,8 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#917DDE;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">4</span>
-            <span style="font-size:16px;font-weight:600;color:#064e3b;">Do you have any of the following conditions?</span>
+            <span style="font-size:16px;font-weight:600;color:#064e3b;">Do you have any relevant medical conditions?</span>
+            <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply or select none if none apply</span>
         </div>
     </div>
     """,
